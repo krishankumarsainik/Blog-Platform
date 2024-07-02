@@ -1,4 +1,36 @@
-# Getting Started with Create React App
+# Simple Blog Platform
+
+## Project Overview
+
+This project is a simple blog platform where the company can publish articles related to technology, industry trends, and company updates. The application is built using React and a CSS framework like Tailwind. It features a home page to display recent blog posts, a post detail page, and an admin page where authenticated users can create, edit, and delete blog posts.
+
+## Features
+
+1. **User Interface**
+
+   - Modern, user-friendly interface using React and Tailwind CSS.
+   - Responsive design for desktop and mobile devices.
+
+2. **Pages**
+   - **Home Page:** Displays a list of recent blog posts with titles, snippets, and publication dates.
+   - **Post Detail Page:** Shows the full content of a selected blog post.
+   - **Admin Page:** Allows authenticated users to create, edit, and delete blog posts.
+3. **State Management**
+
+   - Uses React's `useState` and `useEffect` hooks for managing state within the application.
+
+4. **Routing**
+
+   - Implements client-side routing using `react-router-dom` to navigate between different pages (Home, Post Detail, Admin).
+
+5. **Authentication**
+
+   - Basic authentication for the admin page to restrict access to authorized users.
+
+6. **Data Handling**
+   - Uses local storage to store and retrieve blog post data.
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +99,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
