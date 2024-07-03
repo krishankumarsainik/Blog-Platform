@@ -3,12 +3,13 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { getPosts, editPost } from '../data';
 
 const EditPost = () => {
+
     const { id } = useParams();
     const navigate = useNavigate();
     const [post, setPost] = useState({ title: '', snippet: '', content: '', date: '' });
 
     useEffect(() => {
-        const postToEdit = getPosts().find(p => p.id === parseInt(id));
+        const postToEdit = getPosts().find(post => post.id === parseInt(id));
         if (postToEdit) {
             setPost(postToEdit);
         } else {
